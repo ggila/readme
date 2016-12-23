@@ -1,7 +1,8 @@
 import os
+import inspect
 
 def is_readme(path):
-    files = [file_ for file_ in os.listdir(path)]
+    files = os.listdir(path)
     ignored = [file_ for file_ in files if ]
     readme = []
     for title in []
